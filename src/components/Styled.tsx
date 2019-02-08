@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react';
 import { withStyles, WithStyles } from "@material-ui/core/es/styles";
 
 const styles = {

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && styleguidist server --config styleguide.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "react-docgen-typescript": "^1.12.3",
     "react-dom": "^16.8.1",
     "react-styleguidist": "^8.0.6",
+    "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
     "webpack": "^4.29.3"
   }
