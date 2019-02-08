@@ -17,6 +17,5 @@ function Styled(props: AllProps) {
     return <div className={props.classes.fancyStyle}>props.message</div>;
 }
 
-/** @component */
-export default withStyles(styles)(Styled)
+export default withStyles(styles)(Styled) as React.StatelessComponent<IProps>
 
